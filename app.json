@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "TrueSheetMenuRepro",
+    "slug": "true-sheet-context-menu-repro",
+    "ios": { "bundleIdentifier": "com.example.truesheetmenurepro" }
+  }
+}

@@ -1,0 +1,12 @@
+# Fails: the menu is open on screen, but XCTest's hierarchy does not contain it.
+appId: com.example.truesheetmenurepro
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible: "More actions"
+    timeout: 15000
+- tapOn: "More actions"
+- extendedWaitUntil:
+    visible: "Share"
+    timeout: 5000
